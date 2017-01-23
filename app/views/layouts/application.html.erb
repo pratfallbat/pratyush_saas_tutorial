@@ -21,11 +21,34 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-   <a href="/" class="navbar-brand"><i class="fa fa-music"></i> PROGER</a>
+                               <a href="/" class="navbar-brand">
+                                 <i class="fa fa-music"></i>  PROGER
+                                 </a>
+
+           <%= link_to  "/" , class: "navbar-brand" do %>
+           <i class  = " fa-fa-music"> </i>
+            Archieve
+           <% end %>
+  
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/about">About</a></li>
+                                              <li><a href="/about">Hot</a></li>
+                                               <li><a href="/about">New</a></li>
+                                               <li><a href="/about">Rising</a></li>
+                                                <li><a href="/about">Controvertial</a></li>
+                                               <li><a href="/about">Top</a></li>
+                                               <li><a href="/about">Wiki</a></li>
+                                                <li><a href="/about">Glided</a></li>
+                                                <li><a href="/about">Promoted</a></li>
+                                                 <li><a href="/about">Kscope</a></li>
+                                                <li><a href="/about">Favorite</a></li>
+                                                <li><a href="/about">Vintage</a></li>            
+                                                <li><%= link_to "About", "/about" %></li>
+
+
+
+
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
