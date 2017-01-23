@@ -35,32 +35,16 @@ background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25
 background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
-            .navbar-default .navbar-brand  {
+            .navbar-default .navbar-brand  ,
+            .navbar-default .navbar-nav > li > a{
               
-                color: white;
-                font-size: small;
-           
-                         }
-        .navbar-default .navbar-brand:hover  {
-              
-                color: white;
-              opacity:0.90;
-           
-                         }  
-         .navbar-default .navbar-nav > li > a{
-                   color: white;
-                  font-size:bold;
-                
-                      }
-  
-         .navbar-default .navbar-nav > li > a:hover{
-                   color: white;
-             opacity:0.90;
- 
-                
-                      }
-  
-
+                            color: white;
+                            font-size: small;
+                             &:hover {
+                            color: white;
+                            opacity: 0.75;
+                                          }       
+        }
 
 
 
