@@ -45,6 +45,13 @@ background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25
 background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
 }
+
+.alert-notice , .alert-alert {
+  display: none;
+}
+
+
+
             .navbar-default .navbar-brand  ,
             .navbar-default .navbar-nav > li > a{
               
