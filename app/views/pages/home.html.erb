@@ -2,34 +2,34 @@
   <h1>Welcome to Proger</h1></br>
   <h3>A  membership site where music enthusiast can meet  and share music.</h3>
 </div>
+
 <div class="container home-signup-links">
-<div class="row">
-
-<div class ="col-md-6">
-<div class="well">
-<h2 class= "text-center" >Basic membership</h2>  
-</br>
-</br>
-
-<h4>       Sign up for free and get basic access to the community.</h4>
-</br>
-</br>
-
-<%=link_to "Sign up with basic" , new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block'  %>
+    <div class="row">
+      
+        <div class ="col-md-6">
+            <div class="well">
+            <h2 class= "text-center" >Basic membership</h2>  
+            </br>
+            </br>
+            
+            <h4>       Sign up for free and get basic access to the community.</h4>
+            </br>
+            </br>
+            
+            <%=link_to "Sign up with basic" , new_user_registration_path(plan: @basic_plan.id), class: 'btn btn-primary btn-lg btn-block'  %>
+            </div>
+        </div>
+      
+       <div class ="col-md-6">
+            <div class="well">
+            <h2 class= "text-center" >Pro membership</h2>  
+            </br>
+            <h4>Sign up for the pro account for $10/month and get full access to the music community,downloas unlimited music  and contact information!</h4>
+            </br>
+            <%=link_to "Sign up with Pro" , new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block'  %>
+            </div>
+       </div>
+       
+    </div >
 </div>
-</div>
 
-<div class ="col-md-6">
-<div class="well">
-<h2 class= "text-center" >Pro membership</h2>  
-</br>
-<h4>Sign up for the pro account for $10/month and get full access to the music community,downloas unlimited music  and contact information!</h4>
-</br>
-<%=link_to "Sign up with Pro" , new_user_registration_path(plan: @pro_plan.id), class: 'btn btn-success btn-lg btn-block'  %>
-
-</div>
-</div>
-
-
-</div >
-</div>
